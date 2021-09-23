@@ -1,0 +1,13 @@
+{
+  'resource': 'projects/anjalikhatri/notes/my-attestor-note',
+  'policy': {
+    'bindings': [
+      {
+        'role': 'roles/containeranalysis.notes.occurrences.viewer',
+        'members': [
+          'serviceAccount:service-849432437774@gcp-sa-binaryauthorization.iam.gserviceaccount.com'
+        ]
+      }
+    ]
+  }
+}
